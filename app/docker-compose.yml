@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend/app:/app/app
+    environment:
+      - OPENAI_API_KEY=your_openai_api_key
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:5000"
+    depends_on:
+      - backend
