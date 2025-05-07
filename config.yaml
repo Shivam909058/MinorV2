@@ -1,0 +1,15 @@
+credentials:
+  usernames:
+    admin_123:
+      email: shivamatvit@gmail.com
+      full_access: true
+      name: Primary Admin
+      password: $2b$12$rZPLzvcX.UytRXaZzUX1XOBWGAt6X8dlskBagcDfNSk2.vmFIorA2
+      role: admin
+    system_administrator_2023:
+      email: admin@dbbuddy.com
+      full_access: true
+      name: System Administrator
+      password: $2b$12$USU82aUWB/.mNbk0AdNTReNhe0467opzDKxN2xmLwwnf.6riniHym
+      role: admin
+pending_approvals: {}
